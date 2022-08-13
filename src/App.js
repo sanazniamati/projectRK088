@@ -3,7 +3,7 @@ import Konva from "konva";
 import { Stage, Layer, Line } from "react-konva";
 
 export default function App() {
-  const [blobs, setBlobs] = useState([10]);
+  const [blobs, setBlobs] = useState([5]);
   const handelCreateBlob = () => {
     setBlobs((prevBlobs) => [
       ...prevBlobs,
